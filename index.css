@@ -3,17 +3,32 @@ body {
   color: #555;
   font-family: 'Marcellus';
   letter-spacing: 0.7px;
-  margin: 0 auto;
+  margin: 0;
+}
+
+.container {
+  border-left: 2px solid gray;
+  border-right: 2px solid gray;
+/*  height: 100%;
+  position: absolute;
+  left: 0;
+  right: 0;*/
+  height: 750px;
   width: 724px;
+  margin: 0 auto;
 }
 
 nav {
   background-color: #444;
   height: 70px;
   line-height: 70px;
+  margin: 0 auto;
   position: fixed;
   top: 0;
+  left: 0;
+  right: 0;
   width: 724px;
+  text-align: center;
 }
 
 nav ul {
@@ -54,12 +69,15 @@ nav ul li a:hover {
 .content {
   margin-top: 70px;
   padding-top: 30px;
+  position: absolute;
+  left: 0;
+  right: 0;
   text-align: center;
 }
 
 .social {
-  margin: 100px 100px auto;
-  padding-bottom: 75px;
+  margin: 0 100px 0 100px auto;
+  padding-bottom: 2%;
   position: fixed;
   bottom: 0;
   left: 0;
@@ -73,5 +91,5 @@ nav ul li a:hover {
 }
 
 .social i {
-  margin: 25px 25px;
+  margin: 35px 35px;
 }
