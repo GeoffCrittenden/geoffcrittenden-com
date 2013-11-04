@@ -1,0 +1,76 @@
+body {
+  background-color: #EEE;
+  border: 2px solid #BBB;
+  border-top: none;
+  border-bottom: none;
+  color: #555;
+  font-family: 'Marcellus';
+  letter-spacing: 0.7px;
+  margin: 0 auto;
+  padding: 20px;
+  padding-top: 10px;
+  width: 724px;
+}
+
+h1 {
+  font-weight: 500;
+  font-size: 39px;
+  margin-bottom: 0px;
+}
+
+h1:hover {
+  
+}
+
+h3 {
+  text-align: center;
+}
+
+.contact {
+  margin-top: 0px;
+}
+
+.title {
+  margin-top: 40px;
+}
+
+h1, h2, .contact, .skills {
+  text-align: center;
+}
+
+.topper, .recent, .education, .experience {
+  border-bottom: 2px solid #BBB;
+  margin: auto;
+  padding-bottom: 25px;
+  width: 600px;
+}
+
+.contact span {
+  margin: 0 20px;
+}
+
+div h4 {
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+div ul, div p {
+  margin-top: 5px;
+  margin-bottom: 10px;
+}
+
+div ul:last-child, div p:last-child {
+  margin-bottom: 15px;
+}
+
+.education {
+
+}
+
+.experience {
+  border-bottom: none;
+}
+
+a {
+  color: black;
+}
