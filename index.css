@@ -70,7 +70,7 @@ nav ul li a:hover {
   transform:rotate(-60deg);
   -ms-transform:rotate(-60deg); /* IE 9 */
   -webkit-transform:rotate(-60deg); /* Safari and Chrome */
-  margin-right: 260px;
+  margin-right: 370px;
   margin-top: 0;
   margin-bottom: 0;
 }
@@ -83,14 +83,14 @@ nav ul li a:hover {
   transform:rotate(-60deg);
   -ms-transform:rotate(-60deg); /* IE 9 */
   -webkit-transform:rotate(-60deg); /* Safari and Chrome */
-  margin-right: -25px;
+  margin-right: -45px;
   margin-top: 0;
   margin-bottom: 0;
 }
 
 .content {
   margin-top: 70px;
-  padding-top: 30px;
+  padding-top: 15px;
   position: absolute;
   left: 0;
   right: 0;
@@ -98,6 +98,7 @@ nav ul li a:hover {
 }
 
 .content p {
+  font-size: 25px;
   margin: 0;
 }
 
@@ -120,6 +121,7 @@ nav ul li a:hover {
   margin: 35px 35px;
 }
 
-#tumblr:hover {
+.fa-tumblr-square:hover {
   background-color: red;
+  color: red;
 }
