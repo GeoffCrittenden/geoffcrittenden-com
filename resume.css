@@ -1,5 +1,9 @@
+html {
+  background-color: #DDD;
+}
+
 body {
-  background-color: #EEE;
+  background-color: #FFF;
   border: 2px solid #BBB;
   border-top: none;
   border-bottom: none;
@@ -73,4 +77,5 @@ div ul:last-child, div p:last-child {
 
 a {
   color: #399CC6;
+  text-decoration: none;
 }
