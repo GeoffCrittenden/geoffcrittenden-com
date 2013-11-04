@@ -66,6 +66,28 @@ nav ul li a:hover {
   color: white;
 }
 
+#up {
+  transform:rotate(-60deg);
+  -ms-transform:rotate(-60deg); /* IE 9 */
+  -webkit-transform:rotate(-60deg); /* Safari and Chrome */
+  margin-right: 260px;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.fa-long-arrow-right, .fa-long-arrow-left {
+  color: #CF0E0E;
+}
+
+#down {
+  transform:rotate(-60deg);
+  -ms-transform:rotate(-60deg); /* IE 9 */
+  -webkit-transform:rotate(-60deg); /* Safari and Chrome */
+  margin-right: -25px;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
 .content {
   margin-top: 70px;
   padding-top: 30px;
@@ -73,6 +95,10 @@ nav ul li a:hover {
   left: 0;
   right: 0;
   text-align: center;
+}
+
+.content p {
+  margin: 0;
 }
 
 .social {
@@ -92,4 +118,8 @@ nav ul li a:hover {
 
 .social i {
   margin: 35px 35px;
+}
+
+#tumblr:hover {
+  background-color: red;
 }
