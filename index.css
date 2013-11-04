@@ -27,13 +27,13 @@ nav ul {
 nav ul li {
   color: #399CC6;
   display: inline;
-  height: 70px;
   line-height: 70px;
   margin: 0 30px 0 30px;
+  vertical-align: top;
 }
 
 #name {
-  color: #399CC6;
+  color: #C0E9FA;
   display: inline;
   font-size: 40px;
   height: 70px;
@@ -44,6 +44,7 @@ nav ul li {
 nav ul li a, nav ul li a:visited {
   color: #399CC6;
   text-decoration: none;
+  vertical-align: top;
 }
 
 nav ul li a:hover {
@@ -58,7 +59,17 @@ nav ul li a:hover {
 
 .social {
   margin: 100px 100px auto;
+  padding-bottom: 75px;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
   text-align: center;
+}
+
+.social a {
+  color: inherit;
+  text-decoration: none;
 }
 
 .social i {
