@@ -53,6 +53,10 @@ h1, h2, .contact, .skills {
   margin: 0 20px;
 }
 
+.year {
+  float: right;
+}
+
 div h4 {
   font-weight: bold;
   margin-bottom: 5px;
