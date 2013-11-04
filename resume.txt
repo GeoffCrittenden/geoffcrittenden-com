@@ -1,0 +1,50 @@
+GEOFFREY M. CRITTENDEN
+CHICAGO, IL | (312) 485-6300 | geoffcritt@gmail.com
+
+WEB DEVELOPER / SOFTWARE ENGINEER
+Agile Development | Ruby on Rails | JavaScript | HTML | CSS
+
+Object-Oriented Design | TDD | RSpec | ActiveRecord | SQL
+
+- RECENT SOFTWARE PROJECTS -
+
+CityPulse.io | GitHub Repo
+Data visualization utilizing seven different APIs to display a current snapshot of activity across Chicago.
+
+Instant Meal Ordering | GitHub Repo
+Framework for a fast-food ordering app to expedite point-of-sale for restaurants.
+
+ChromeCast Slideshow | GitHub Repo
+A slideshow application to diplay information on a ChromeCast homepage between casts.
+
+- EDUCATION & TRAINING -
+
+Dev Bootcamp - Chicago, IL - 2013
+Nine-week intensive web development course.
+
+M.S., Digital Cinema - DePaul University - 2012
+Film & TV production focusing on the independent filmmaking model.
+
+B.S., Atmospheric, Oceanic & Space Sci. - U. of Michigan - 2000
+Completed College of Engineering Core Curriculum.
+
+Concentrated in atmospheric technology and space systems design.
+
+- PREVIOUS PROFESSIONAL EXPERIENCE -
+
+Freelance Media Production Professional, 2009 - 2013
+Worked for numerous film, TV and web productions in multiple roles, including Producer, Production Coordinator, Camera Operator, Location Manager, Location Scout & Production Assistant.
+
+Defense Contractor - BroadBay Group, Inc., 2008 - 2009
+Operated airborne camera and provided aviation support for military units in training.
+
+Created an air-to-surface video streaming platform, utilizing RF and IP technologies, for clients to receive real-time video from in-progress operations.
+
+Co-authored Naval Special Warfare unmanned aircraft systems operating instruction.
+
+Naval Officer - Combat Aviator, 2000 - 2008
+Amassed over 1400 tactical flight hours and 200 carrier arrested landings in both F-14A Tomcat and F/A-18F Super Hornet fighter aircraft.
+
+Flew 36 combat missions in support of Operations SOUTHERN WATCH and IRAQI FREEDOM.
+
+Decorated for actions over enemy territory by being awarded Air Medal with 'V'.
