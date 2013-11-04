@@ -12,6 +12,24 @@ body {
   width: 724px;
 }
 
+nav ul {
+  display: block;
+  list-style-type: none;
+}
+
+nav ul li {
+  display: inline;
+}
+
+.social {
+  margin: 100px 100px auto;
+  text-align: center;
+}
+
+.social i {
+  margin: 25px 25px;
+}
+
 h1 {
   font-weight: 500;
   font-size: 39px;

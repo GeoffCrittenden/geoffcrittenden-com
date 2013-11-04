@@ -83,3 +83,10 @@ a {
   color: #399CC6;
   text-decoration: none;
 }
+
+#go-back {
+  font-family: 'Marcellus';
+  font-size: 20px;
+  height: 32px;
+  line-height: 32px;
+}
