@@ -1,24 +1,59 @@
 body {
   background-color: #EEE;
-  border: 2px solid #BBB;
-  border-top: none;
-  border-bottom: none;
   color: #555;
   font-family: 'Marcellus';
   letter-spacing: 0.7px;
   margin: 0 auto;
-  padding: 20px;
-  padding-top: 10px;
+  width: 724px;
+}
+
+nav {
+  background-color: #444;
+  height: 70px;
+  line-height: 70px;
+  position: fixed;
+  top: 0;
   width: 724px;
 }
 
 nav ul {
   display: block;
   list-style-type: none;
+  margin: 0;
+  padding: 0;
+  padding-left: 20px;
 }
 
 nav ul li {
+  color: #399CC6;
   display: inline;
+  height: 70px;
+  line-height: 70px;
+  margin: 0 30px 0 30px;
+}
+
+#name {
+  color: #399CC6;
+  display: inline;
+  font-size: 40px;
+  height: 70px;
+  line-height: 70px;
+  margin: 0 20px 0 20px;
+}
+
+nav ul li a, nav ul li a:visited {
+  color: #399CC6;
+  text-decoration: none;
+}
+
+nav ul li a:hover {
+  color: white;
+}
+
+.content {
+  margin-top: 70px;
+  padding-top: 30px;
+  text-align: center;
 }
 
 .social {
@@ -28,67 +63,4 @@ nav ul li {
 
 .social i {
   margin: 25px 25px;
-}
-
-h1 {
-  font-weight: 500;
-  font-size: 39px;
-  margin-bottom: 0px;
-}
-
-h1:hover {
-  
-}
-
-h3 {
-  text-align: center;
-}
-
-.contact {
-  margin-top: 0px;
-}
-
-.title {
-  margin-top: 40px;
-}
-
-h1, h2, .contact, .skills {
-  text-align: center;
-}
-
-.topper, .recent, .education, .experience {
-  border-bottom: 2px solid #BBB;
-  margin: auto;
-  padding-bottom: 25px;
-  width: 600px;
-}
-
-.contact span {
-  margin: 0 20px;
-}
-
-div h4 {
-  font-weight: bold;
-  margin-bottom: 5px;
-}
-
-div ul, div p {
-  margin-top: 5px;
-  margin-bottom: 10px;
-}
-
-div ul:last-child, div p:last-child {
-  margin-bottom: 15px;
-}
-
-.education {
-
-}
-
-.experience {
-  border-bottom: none;
-}
-
-a {
-  color: black;
 }
