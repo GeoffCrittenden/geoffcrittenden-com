@@ -129,6 +129,13 @@ nav ul li a:hover {
   margin-top: 30px;
 }
 
+#thanks {
+  font-size: 21px;
+  text-align: left;
+  margin: 0 auto;
+  width: 660px;
+}
+
 .social {
   margin: 0 100px 0 100px auto;
   padding-bottom: 2%;
