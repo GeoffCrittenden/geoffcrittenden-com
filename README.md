@@ -4,4 +4,8 @@ This is my personal webpage/webapp. I graduated from DevBootcamp Chicago in Octo
 
 UPDATE: Nov. 4, 2013
 
+  Installed Font Awesome 4.0.2 for icons and symbols.
+
+UPDATE: Nov. 4, 2013
+
   Website is live on GitHub Pages.  Right now it is a static HTML page using some basic CSS.
