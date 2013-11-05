@@ -57,6 +57,11 @@ nav ul li {
   margin: 0 20px 0 20px;
 }
 
+#name a {
+  color: #C0E9FA;
+  text-decoration: none;
+}
+
 nav ul li a, nav ul li a:visited {
   color: #399CC6;
   text-decoration: none;
