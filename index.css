@@ -117,11 +117,10 @@ nav ul li a:hover {
   text-decoration: none;
 }
 
-.social i {
-  margin: 35px 35px;
+.social a i:hover {
+  color: #399CC6;
 }
 
-.fa-tumblr-square:hover {
-  background-color: red;
-  color: red;
+.social i {
+  margin: 35px 35px;
 }
