@@ -10,10 +10,6 @@ body {
   border-left: 2px solid gray;
   border-right: 2px solid gray;
   border-bottom: 2px solid gray;
-/*  height: 100%;
-  position: absolute;
-  left: 0;
-  right: 0;*/
   height: 780px;
   width: 724px;
   margin: 0 auto;
@@ -37,24 +33,37 @@ nav ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
-  padding-left: 20px;
 }
 
-nav ul li {
+nav a {
   color: #399CC6;
   display: inline;
   line-height: 70px;
-  margin: 0 30px 0 30px;
+  margin: 0 auto;
   vertical-align: top;
+  text-decoration: none;
+}
+
+#left {
+  float: left;
+  margin-left: 30px;
+}
+
+#right {
+  float: right;
+  margin-right: 30px;
 }
 
 #name {
   color: #C0E9FA;
-  display: inline;
+  /*display: inline;*/
   font-size: 40px;
   height: 70px;
   line-height: 70px;
-  margin: 0 20px 0 20px;
+  position: absolute;
+  left: 23%;
+  right: 23%;
+  text-align: center;
 }
 
 #name a {
