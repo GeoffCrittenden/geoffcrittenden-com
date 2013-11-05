@@ -9,11 +9,12 @@ body {
 .container {
   border-left: 2px solid gray;
   border-right: 2px solid gray;
+  border-bottom: 2px solid gray;
 /*  height: 100%;
   position: absolute;
   left: 0;
   right: 0;*/
-  height: 750px;
+  height: 780px;
   width: 724px;
   margin: 0 auto;
 }
