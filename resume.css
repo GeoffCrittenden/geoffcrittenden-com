@@ -90,3 +90,11 @@ a {
   height: 32px;
   line-height: 32px;
 }
+
+#pdf {
+  float: right;
+  font-size: 20px;
+  height: 32px;
+  line-height: 32px;
+  margin-right: 20px;
+}
