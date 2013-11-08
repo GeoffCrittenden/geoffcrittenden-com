@@ -61,6 +61,10 @@ h1, h2, .contact, .skills {
   float: right;
 }
 
+.tech {
+  font-style: italic;
+}
+
 div h4 {
   font-weight: bold;
   margin-bottom: 5px;
