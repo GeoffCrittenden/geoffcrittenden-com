@@ -49,6 +49,10 @@ h1, h2, .contact, .skills {
   width: 600px;
 }
 
+.topper {
+  clear: both;
+}
+
 .contact span {
   margin: 0 20px;
 }
@@ -96,5 +100,15 @@ a {
   font-size: 18px;
   height: 32px;
   line-height: 32px;
+  margin-right: 20px;
+  padding-bottom: 20px;
+}
+
+#pdf-bottom {
+  float: right;
+  font-size: 18px;
+  height: 32px;
+  line-height: 32px;
+  margin: 0 auto;
   margin-right: 20px;
 }
