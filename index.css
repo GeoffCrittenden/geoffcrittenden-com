@@ -48,11 +48,14 @@ nav a:hover {
 }
 
 .content {
+  margin: 0 auto;
+  padding: 5px;
   position: absolute;
   top: 70px;
   left: 0;
   right: 0;
   text-align: center;
+  width: 724px;
 }
 
 .content p {
@@ -60,9 +63,35 @@ nav a:hover {
   margin: 0;
 }
 
-.col {
+.feature {
+  border-left: 2px solid gray;
+  border-right: 2px solid gray;
   display: inline;
-  width: 200px;
+  float: left;
+  margin-left: -2px;
+  margin-right: -2px;
+  width: 33%;
+}
+
+.feature:nth-child(2) {
+  margin-left: 0;
+  margin-right: 0;
+}
+
+.feature:last-child {
+  border-right: none;
+  margin-left: 0;
+}
+
+.feature h2 {
+  text-align: center;
+}
+
+.feature p {
+  font-size: 16px;
+  padding-left: 10px;
+  padding-right: 10px;
+  text-align: justify;
 }
 
 #about {
