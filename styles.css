@@ -1,0 +1,59 @@
+#board {
+  font-family: monospace;
+  background-color: #838A96;
+  margin: 0;
+  padding: 0;
+  position: relative;
+}
+
+.post-it {
+  position: absolute !important;
+  height: 220px;
+  width: 240px;
+  background-color: #B3CFFF;
+  box-shadow: -2px 2px 5px #555;
+  overflow: hidden;
+}
+
+.post-it .header {
+  background-color: #7790BA;
+  font-family: helvetica;
+  line-height: 20px;
+  margin: 0;
+  text-align: right;
+  padding: 2px;
+}
+
+.post-it .header:hover {
+  background-color: #85A3D4;
+}
+
+.post-it .header a, .post-it .header a:visited {
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+}
+
+.post-it .header a:hover {
+  color: #eee;
+}
+
+.post-it .content {
+  font-family: arial;
+  padding: 10px;
+  min-height: 70px;
+  outline: none;
+}
+
+.post-it .header span {
+  border: 2px solid #969696;
+  cursor: hand;
+  margin: 0;
+  margin-right: 0;
+  padding: 0 3px;
+  font-size: 12;
+}
+
+.post-it .header span:hover {
+  color: #dedede;
+}

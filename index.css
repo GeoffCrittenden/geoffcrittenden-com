@@ -60,6 +60,11 @@ nav a:hover {
   margin: 0;
 }
 
+.col {
+  display: inline;
+  width: 200px;
+}
+
 #about {
   font-size: 18px;
   margin: 0 auto;
