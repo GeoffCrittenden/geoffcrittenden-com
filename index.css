@@ -16,8 +16,8 @@ body {
 nav {
   background-color: #444;
   font-size: 20px;
-  height: 70px;
-  line-height: 70px;
+  height: 50px;
+  line-height: 50px;
   margin: 0 auto;
   position: fixed;
   top: 0;
@@ -30,7 +30,7 @@ nav {
 nav a {
   color: #399CC6;
   display: inline;
-  line-height: 70px;
+  line-height: 50px;
   margin: 0 50px;
   text-decoration: none;
   width: 150px;
@@ -51,11 +51,15 @@ nav a:hover {
   margin: 0 auto;
   padding: 5px;
   position: absolute;
-  top: 70px;
+  top: 50px;
   left: 0;
   right: 0;
   text-align: center;
   width: 724px;
+}
+
+.content h1 {
+  margin: 10px 0;
 }
 
 .content p {
@@ -64,8 +68,6 @@ nav a:hover {
 }
 
 .feature {
-  border-left: 2px solid gray;
-  border-right: 2px solid gray;
   display: inline;
   float: left;
   margin-left: -2px;
@@ -73,12 +75,20 @@ nav a:hover {
   width: 33%;
 }
 
+.feature:first-child {
+  border-left: none;
+  border-right: 2px solid gray;
+}
+
 .feature:nth-child(2) {
+  border-left: 2px solid gray;
+  border-right: 2px solid gray;
   margin-left: 0;
-  margin-right: 0;
+  margin-right: -2px;
 }
 
 .feature:last-child {
+  border-left: 2px solid gray;
   border-right: none;
   margin-left: 0;
 }
