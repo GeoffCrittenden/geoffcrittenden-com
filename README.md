@@ -1,6 +1,9 @@
 Welcome to GeoffCrittenden.com!
 
-This is my personal webpage/webapp. I graduated from DevBootcamp Chicago in October 2013, where I learned Agile development based on Ruby on Rails and JavaScript (as well as a LOT of other stuff). I am using this webapp to not only be my little corner of the web, but also to keep practicing my skills and expand into others. As I add technologies/features, they will be detailed below.
+This is my personal webpage/webapp. I graduated from DevBootcamp Chicago in October 2013, where I learned Agile development based on Ruby on Rails and JavaScript (as well as a LOT of other stuff). I am using this webapp to not only be my little corner of the web, but also to keep practicing my skills and expand into others. As I update the site and add features, they will be detailed below.
+
+UPDATE: Nov. 15, 2013 - 
+  Added recent projects to index.html and tweaked some styling.
 
 UPDATE: Nov. 12, 2013 - 
   Moved domain back to about.me/GeoffCrittenden.
