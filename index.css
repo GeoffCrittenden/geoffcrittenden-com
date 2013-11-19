@@ -126,6 +126,11 @@ nav a:hover {
   margin-top: 10px;
 }
 
+.click-box {
+  background-color: red;
+  margin: 20px;
+}
+
 #about {
   font-size: 18px;
   margin: 0 auto;

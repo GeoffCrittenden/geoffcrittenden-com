@@ -51,6 +51,6 @@ Array.prototype.last = function() {
 };
 
 $(function() {
-  board = new Board($('#board'));
+  board = new Board($('.board'));
 
 });
