@@ -67,6 +67,17 @@ nav a:hover {
   margin: 0;
 }
 
+.intro {
+  
+}
+
+.border {
+  border-bottom: 2px solid gray;
+  margin: 0 auto;
+  margin-bottom: 10px;
+  padding-top: -10px;
+}
+
 .feature {
   display: inline;
   float: left;
