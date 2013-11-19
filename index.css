@@ -75,6 +75,11 @@ nav a:hover {
   width: 33%;
 }
 
+.feature a {
+  color: #399CC6;
+  text-decoration: none;
+}
+
 .feature:first-child {
   border-left: none;
   border-right: 2px solid gray;
@@ -114,12 +119,19 @@ nav a:hover {
   font-size: 18px;
   margin: 0 auto;
   margin-bottom: 25px;
-  text-align: left;
+  text-align: justify;
   width: 660px;
 }
 
 #about:first-child {
   margin-top: 30px;
+}
+
+#profile {
+  float: right;
+  height: 150px;
+  margin-left: 10px;
+  width: 150px;
 }
 
 #thanks {
