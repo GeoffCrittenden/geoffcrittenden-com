@@ -126,9 +126,16 @@ nav a:hover {
   margin-top: 10px;
 }
 
-.click-box {
-  background-color: red;
+#click-box {
+  background-color: #CCC;
+  cursor: hand;
+  height: 100px;
+  line-height: 100px;
   margin: 20px;
+  text-align: center;
+}
+
+#click-box:hover {
 }
 
 #about {
