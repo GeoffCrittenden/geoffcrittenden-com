@@ -47,7 +47,7 @@
 
 .post-it .header span {
   border: 2px solid #969696;
-  cursor: hand;
+  cursor: pointer;
   margin: 0;
   margin-right: 0;
   padding: 0 3px;

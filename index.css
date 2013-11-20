@@ -130,15 +130,11 @@ nav a:hover {
 #click-box {
   background-color: #CCC;
   border: 1px solid #999;
-  cursor: hand;
+  cursor: pointer;
   height: 70px;
   line-height: 70px;
   margin: 20px;
   text-align: center;
-}
-
-#click-box:hover {
-  cursor: hand;
 }
 
 #about {
