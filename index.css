@@ -1,5 +1,5 @@
 body {
-  background-color: #EEE;
+  background-color: #F5F5F5;
   color: #555;
   font-family: 'Marcellus';
   letter-spacing: 0.7px;
@@ -67,8 +67,9 @@ nav a:hover {
   margin: 0;
 }
 
-.intro {
-
+.intro h1 {
+  font-size: 40px;
+  letter-spacing: 2px;
 }
 
 .border {
