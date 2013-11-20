@@ -4,8 +4,6 @@ var Board = function(el) {
   var self = this;
 
   this.el.on('click', function(e) {
-    console.log(e.pageX);
-    console.log(e.pageY);
     self.createPostIt(e.pageX,e.pageY);
   });
 };
