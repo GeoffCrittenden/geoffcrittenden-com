@@ -164,12 +164,17 @@ nav a:hover {
 }
 
 .social {
-  margin: 0 100px 0 100px auto;
+  margin: 20px 100px 0 100px auto;
   position: absolute;
-  top: 660px;
+  top: 610px;
   left: 0;
   right: 0;
   text-align: center;
+}
+
+.social p {
+  margin-top: 50px;
+  margin-bottom: -30px;
 }
 
 .social a {
@@ -182,5 +187,5 @@ nav a:hover {
 }
 
 .social i {
-  margin: 35px 35px;
+  margin: 35px 15px 0 15px;
 }

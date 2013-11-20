@@ -17,6 +17,7 @@
 
 .post-it .header {
   background-color: #7790BA;
+  cursor: move;
   font-family: helvetica;
   line-height: 20px;
   margin: 0;
