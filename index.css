@@ -131,9 +131,9 @@ nav a:hover {
   background-color: #CCC;
   border: 1px solid #999;
   cursor: pointer;
-  height: 70px;
-  line-height: 70px;
-  margin: 20px;
+  height: 40px;
+  line-height: 40px;
+  margin: 15px;
   text-align: center;
 }
 
