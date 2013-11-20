@@ -22,7 +22,7 @@ Board.prototype.appendPostIt = function(postIt) {
 
 Board.prototype.placePostIt = function(postIt,x,y) {
   this.el.find(postIt.selector + ':last-child').css(
-    { left: x, top: y }
+    { left: x - 590, top: y - 260 }
   );
 };
 
