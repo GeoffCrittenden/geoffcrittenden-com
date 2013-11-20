@@ -29,6 +29,7 @@ var PostIt = function(selector) {
   this.el.draggable( { handle: '.header' } );
   this.el.resizable();
   this.selector = selector
+  this.header = '.header';
   this.close = '.close';
   this.drag = '#drag-me';
   var self = this
@@ -38,8 +39,8 @@ var PostIt = function(selector) {
     self.removePostIt();
   });
 
-  this.el.find(this.drag).mouseover(function() {
-    this.remove();
+  this.el.find(this.header).mouseover(function() {
+    $('#drag-me').remove();
   });
 
   this.el.on('click', function(e) {
