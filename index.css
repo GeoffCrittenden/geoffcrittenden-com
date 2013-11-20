@@ -129,6 +129,7 @@ nav a:hover {
 
 #click-box {
   background-color: #CCC;
+  border: 1px solid #999;
   cursor: hand;
   height: 100px;
   line-height: 100px;
@@ -137,6 +138,7 @@ nav a:hover {
 }
 
 #click-box:hover {
+  cursor: hand;
 }
 
 #about {
