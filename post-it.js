@@ -4,7 +4,7 @@ var Board = function(el) {
   var self = this;
 
   this.el.on('click', function(e) {
-    self.createPostIt(e.clientX,e.clientY);
+    self.createPostIt(e.pageX,e.pageY);
   });
 };
 
@@ -25,16 +25,21 @@ Board.prototype.placePostIt = function(postIt,x,y) {
 };
 
 var PostIt = function(selector) {
-  this.el = $('<div class="post-it"><p class="header"><span class="close">x</span></p><div class="content" contenteditable="true"></div></div>');
+  this.el = $('<div class="post-it"><p class="header"><span id="drag-me">I am draggable!</span><span class="close">x</span></p><div class="contents" contenteditable="true"></div></div>');
   this.el.draggable( { handle: '.header' } );
   this.el.resizable();
   this.selector = selector
   this.close = '.close';
+  this.drag = '#drag-me';
   var self = this
 
   this.el.find(this.close).on('click', function(e) {
     e.stopPropagation();
     self.removePostIt();
+  });
+
+  this.el.find(this.drag).mouseover(function() {
+    this.remove();
   });
 
   this.el.on('click', function(e) {

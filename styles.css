@@ -39,22 +39,29 @@
   color: #eee;
 }
 
-.post-it .content {
+.post-it .contents {
   font-family: arial;
   padding: 10px;
   min-height: 70px;
   outline: none;
 }
 
-.post-it .header span {
+#drag-me {
+  color: #BBB;
+  float: left;
+  margin-top: 0;
+}
+
+.close {
   border: 2px solid #969696;
   cursor: pointer;
   margin: 0;
   margin-right: 0;
   padding: 0 3px;
   font-size: 12;
+  text-align: right;
 }
 
-.post-it .header span:hover {
+.close:hover {
   color: #dedede;
 }
