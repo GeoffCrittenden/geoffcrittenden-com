@@ -3,7 +3,7 @@ var Board = function(el) {
   this.postIts = [];
   var self = this;
 
-  this.el.on('click', function(e) {
+  $('.board').on('click', function(e) {
     self.createPostIt(e.pageX,e.pageY);
   });
 };
@@ -20,7 +20,7 @@ Board.prototype.appendPostIt = function(postIt) {
 
 Board.prototype.placePostIt = function(postIt,x,y) {
   this.el.find(postIt.selector + ':last-child').css(
-    { left: x - 590, top: y - 260 }
+    { left: x, top: y }
   );
 };
 
@@ -57,6 +57,6 @@ Array.prototype.last = function() {
 };
 
 $(function() {
-  board = new Board($('.board'));
+  board = new Board($('body'));
 
 });
