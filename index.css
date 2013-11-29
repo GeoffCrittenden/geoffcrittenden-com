@@ -9,8 +9,8 @@
   }
 
   .container {
-    border-left: 2px solid gray;
-    border-right: 2px solid gray;
+    /*border-left: 2px solid gray;
+    border-right: 2px solid gray;*/
     width: 724px;
     margin: 0 auto;
   }
@@ -139,6 +139,15 @@
     text-align: center;
   }
 
+  .shurly {
+    border: 2px solid gray;
+    border-left: none;
+    border-right: none;
+    clear: both;
+    padding-top: 15px;
+    padding-bottom: 15px;
+  }
+
   #about {
     font-size: 18px;
     margin: 0 auto;
@@ -167,8 +176,8 @@
 
   .social {
     margin: 20px 100px 0 100px;
-    position: absolute;
-    top: 610px;
+    position: relative;
+    top: 630px;
     left: 0;
     right: 0;
     text-align: center;
