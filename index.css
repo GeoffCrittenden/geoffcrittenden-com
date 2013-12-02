@@ -1,7 +1,7 @@
-@media only screen and (min-width: 824px) {
+@media only screen and (min-width: 768px) {
 
   body {
-    background-color: #F7F7F7;
+    background-color: #FBFBFB;
     color: #555;
     font-family: 'Marcellus';
     letter-spacing: 0.7px;
@@ -12,7 +12,7 @@
     /*border-left: 2px solid gray;
     border-right: 2px solid gray;*/
     margin: 0 auto;
-    width: 60%;
+    width: 95%;
   }
 
   nav {
@@ -180,15 +180,18 @@
   .social {
     clear: both;
     margin: 20px 100px 0 100px;
-    position: fixed;
+    /*position: fixed;
     bottom: 10px;
     left: 0;
-    right: 0;
+    right: 0;*/
     text-align: center;
   }
 
   .social p {
-    margin-top: 50px;
+    font-size: 16px;
+    letter-spacing: 0.7px;
+    margin-top: 20px;
+    margin-bottom: 5px;
   }
 
   .social a {
@@ -201,7 +204,7 @@
   }
 
   .social i {
-    margin: 5px 15px 0 15px;
+    margin: 0 15px 0 15px;
   }
 
 }
