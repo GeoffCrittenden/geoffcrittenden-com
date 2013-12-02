@@ -1,7 +1,7 @@
-@media only screen and (min-width: 961px) {
+@media only screen and (min-width: 824px) {
 
   body {
-    background-color: #F5F5F5;
+    background-color: #F7F7F7;
     color: #555;
     font-family: 'Marcellus';
     letter-spacing: 0.7px;
@@ -11,8 +11,8 @@
   .container {
     /*border-left: 2px solid gray;
     border-right: 2px solid gray;*/
-    width: 95%;
     margin: 0 auto;
+    width: 95%;
   }
 
   nav {
@@ -115,6 +115,8 @@
 
   .feature h2 {
     margin-top: 5px;
+    margin-left: 10px;
+    margin-right: 10px;
     text-align: center;
   }
 
@@ -176,9 +178,10 @@
   }
 
   .social {
+    clear: both;
     margin: 20px 100px 0 100px;
-    position: relative;
-    top: 600px;
+    position: fixed;
+    bottom: 10px;
     left: 0;
     right: 0;
     text-align: center;
