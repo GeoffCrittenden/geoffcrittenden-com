@@ -1,7 +1,7 @@
 @media only screen and (min-width: 768px) {
 
   body {
-    background-color: #FBFBFB;
+    background-color: #FFF;
     color: #555;
     font-family: 'Marcellus';
     letter-spacing: 0.7px;
@@ -76,11 +76,13 @@
     border-bottom: 2px solid gray;
     margin: 0 auto;
     margin-bottom: 10px;
+    max-width: 960px;
     padding-top: -10px;
   }
 
   .features {
-    max-width: 700px;
+    margin: auto;
+    max-width: 960px;
   }
 
   .feature {
@@ -149,6 +151,8 @@
     border-left: none;
     border-right: none;
     clear: both;
+    margin: auto;
+    max-width: 960px;
     padding-top: 15px;
     padding-bottom: 15px;
   }
