@@ -86,6 +86,7 @@
     float: left;
     margin-left: -2px;
     margin-right: -2px;
+    margin-bottom: 25px;
     width: 33%;
   }
 
@@ -139,7 +140,7 @@
     text-align: center;
   }
 
-  .shurly {
+  #shurly {
     border: 2px solid gray;
     border-left: none;
     border-right: none;
@@ -177,7 +178,7 @@
   .social {
     margin: 20px 100px 0 100px;
     position: relative;
-    top: 630px;
+    top: 600px;
     left: 0;
     right: 0;
     text-align: center;
