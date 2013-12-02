@@ -12,7 +12,7 @@
     /*border-left: 2px solid gray;
     border-right: 2px solid gray;*/
     margin: 0 auto;
-    width: 95%;
+    width: 60%;
   }
 
   nav {
@@ -189,7 +189,6 @@
 
   .social p {
     margin-top: 50px;
-    margin-bottom: -30px;
   }
 
   .social a {
@@ -202,7 +201,7 @@
   }
 
   .social i {
-    margin: 35px 15px 0 15px;
+    margin: 5px 15px 0 15px;
   }
 
 }
