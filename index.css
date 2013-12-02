@@ -1,4 +1,4 @@
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 961px) {
 
   body {
     background-color: #F5F5F5;
@@ -11,7 +11,7 @@
   .container {
     /*border-left: 2px solid gray;
     border-right: 2px solid gray;*/
-    width: 724px;
+    width: 95%;
     margin: 0 auto;
   }
 
@@ -25,7 +25,7 @@
     top: 0;
     left: 0;
     right: 0;
-    width: 724px;
+    width: 100%;
     text-align: center;
   }
 
@@ -57,7 +57,7 @@
     left: 0;
     right: 0;
     text-align: center;
-    width: 724px;
+    width: 85%;
   }
 
   .content h1 {
