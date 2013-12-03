@@ -260,6 +260,17 @@
     width: 100px;
   }
 
+  #shurly {
+    text-align: left;
+  }
+
+  #profile {
+    float: right;
+    height: 75px;
+    margin-left: 10px;
+    width: 75px;
+  }
+
   .social {
     margin: auto;
     margin-top: 30px;
