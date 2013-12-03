@@ -157,6 +157,11 @@
     padding-bottom: 15px;
   }
 
+  #shurly a {
+    color: #399CC6;
+    text-decoration: none;
+  }
+
   #about {
     font-size: 18px;
     margin: 0 auto;
@@ -186,10 +191,6 @@
   .social {
     clear: both;
     margin: 20px 100px 0 100px;
-    /*position: fixed;
-    bottom: 10px;
-    left: 0;
-    right: 0;*/
     text-align: center;
   }
 
@@ -201,12 +202,12 @@
   }
 
   .social a {
-    color: inherit;
+    color: #399CC6;
     text-decoration: none;
   }
 
   .social a i:hover {
-    color: #399CC6;
+    color: #555;
   }
 
   .social i {
