@@ -1,7 +1,7 @@
 @media only screen and (min-width: 768px) {
 
   body {
-    background-color: #FFF;
+    background-color: #FBFBFB;
     color: #555;
     font-family: 'Marcellus';
     letter-spacing: 0.7px;
@@ -70,6 +70,23 @@
   .intro h1 {
     font-size: 40px;
     letter-spacing: 2px;
+  }
+
+  #stamp {
+    background: rgba(222,000,000,0.5);
+    /*background-color: #DDD;*/
+    color: white;
+    display: block;
+    font-size: 14px;
+    font-weight: bold;
+    position: absolute;
+    top: 25px;
+    left: 72%;
+    right: 28%;
+    transform:rotate(20deg);
+    -ms-transform:rotate(20deg); /* IE 9 */
+    -webkit-transform:rotate(20deg); /* Safari and Chrome */
+    width: 130px;
   }
 
   .border {
