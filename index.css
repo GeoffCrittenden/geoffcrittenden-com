@@ -239,7 +239,7 @@
 @media only screen and (max-width: 767px) {
 
   body {
-    text-align: justify;
+    text-align: left;
     background-color: #555;
     color: #FBFBFB;
     font-family: 'Marcellus';
