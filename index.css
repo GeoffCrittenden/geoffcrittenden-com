@@ -152,7 +152,8 @@
   }
 
   .feature span {
-    margin-top: 10px;
+    margin: 10px;
+    margin-bottom: 0;
   }
 
   #click-box {
@@ -227,6 +228,44 @@
 
   .social a i:hover {
     color: #555;
+  }
+
+  .social i {
+    margin: 0 15px 0 15px;
+  }
+
+}
+
+@media only screen and (max-width: 767px) {
+
+  body {
+    margin: auto;
+    text-align: justify;
+    width: 90%;
+  }
+
+  .intro h1 {
+    margin-bottom: 0;
+  }
+
+  .intro p {
+    margin-top: 0;
+  }
+
+  #stamp {
+    visibility: hidden;
+  }
+
+  #click-box {
+    width: 100px;
+  }
+
+  .social {
+    margin-top: 30px;
+  }
+
+  .social p {
+    padding-left: 75px;
   }
 
   .social i {
