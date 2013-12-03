@@ -261,11 +261,16 @@
   }
 
   .social {
+    margin: auto;
     margin-top: 30px;
   }
 
   .social p {
     padding-left: 65px;
+  }
+
+  .social i {
+    margin: 0 5px 5px 5px;
   }
 
 }
