@@ -74,18 +74,20 @@
 
   #stamp {
     background: rgba(222,000,000,0.5);
-    /*background-color: #DDD;*/
+    border-radius: 6px;
     color: white;
     display: block;
     font-size: 14px;
     font-weight: bold;
+    /*line-height: 130px;*/
     position: absolute;
-    top: 25px;
-    left: 72%;
-    right: 28%;
+    top: 10px;
+    left: 68%;
+    right: 32%;
     transform:rotate(20deg);
     -ms-transform:rotate(20deg); /* IE 9 */
     -webkit-transform:rotate(20deg); /* Safari and Chrome */
+    /*height: 130px;*/
     width: 130px;
   }
 
