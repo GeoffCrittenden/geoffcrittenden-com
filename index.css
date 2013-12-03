@@ -269,6 +269,7 @@
   .intro {
     border-bottom: 2px solid #444;
     padding-bottom: 30px;
+    text-align: center;
   }
 
   .intro h1 {
