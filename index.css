@@ -239,9 +239,18 @@
 @media only screen and (max-width: 767px) {
 
   body {
-    margin: auto;
     text-align: justify;
+    background-color: #555;
+    color: #FBFBFB;
+    font-family: 'Marcellus';
+    letter-spacing: 0.7px;
+    margin: 0 auto;
     width: 90%;
+  }
+
+  a {
+    color: #399CC6;
+    text-decoration: none;
   }
 
   .intro h1 {
