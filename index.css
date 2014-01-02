@@ -91,6 +91,11 @@
     width: 130px;
   }
 
+  #stamp a {
+    color: white;
+    text-decoration: none;
+  }
+
   .border {
     border-bottom: 2px solid gray;
     margin: 0 auto;
