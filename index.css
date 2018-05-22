@@ -1,7 +1,7 @@
 @media only screen and (min-width: 768px) {
 
   body {
-    background-color: #FBFBFB;
+    background-color: #F5F5FA;
     color: #555;
     font-family: 'Marcellus';
     letter-spacing: 0.7px;
@@ -43,6 +43,12 @@
     vertical-align: top;
   }
 
+  nav a.disabled:hover {
+    color: black;
+    text-decoration: line-through;
+    text-decoration-color: darkred;
+  }
+
   nav a:hover {
     color: white;
   }
@@ -70,6 +76,10 @@
   .intro h1 {
     font-size: 40px;
     letter-spacing: 2px;
+  }
+
+  .intro span {
+    visibility: hidden
   }
 
   #stamp {

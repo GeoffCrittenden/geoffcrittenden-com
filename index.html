@@ -18,6 +18,7 @@
         <a href="index.html">Home</a>
         <a href="http://blog.geoffcrittenden.com/">Blog</a>
         <a href="resume.html">Resume</a>
+        <a class="disabled" disabled="disabled">Photos</a>
         <a href="about.html">About Me</a>
       </nav>
       <div class="content">
@@ -31,32 +32,35 @@
 
         <div class="features">
           <div class="feature">
-            <h2>Check Out <a href="http://www.citypulse.io/" target="_blank">CityPulse.io</a></h2>
-            <p><a href="http://www.citypulse.io" target="_blank">CityPulse.io</a> is the final project I worked on at Dev Bootcamp in Chicago.  A team of four devs worked (almost) non-stop for eight straight days, utilizing seven APIs, to bring you a map application that displays a current snapshot, or the 'pulse,' of Chicago.</p>
-            <span><a href="https://github.com/ztnark/CityPulse" target="_blank">Source Code</a></span>
+            <h2>Land that <a href="https://mydreamjob.herokuapp.com" target="_blank">Dream Job!</a></h2>
+            <p>Dream Job is a simple alerts API that scrapes the job listings of your favorite company/companies and sends an sms alert if the job you want becomes available.</p>
+            <p>It is configurable entirely via environment variables, so it is easily pointed to another site, without needing a deployment, if your dream is no longer available.</p>
+            <p>This was also my first side project that was developed by strictly adhering to TDD.  Test coverage never dropped below 100%</p>
+            <span><a href="https://github.com/GeoffCrittenden/dream_job" target="_blank">Source Code</a></span>
           </div>
           <div class="feature">
-            <h2><a href="board.html" target="_blank">Play with Post-It Notes!</a></h2>
-            <p class="board" id="click-box">Click Me</p>
-            <p>Click inside the box above, or follow the link in the headline.  Post-Its are draggable, by the dark bar at their top, and you can write anything you want inside.  To make them disappear, just click the 'X' in the upper right corner.</p>
-            <span><a href="https://github.com/GeoffCrittenden/geoffcrittenden-com/blob/gh-pages/postit.js" target="_blank">Source Code</a></span>
+            <h2><a href="https://sgst.herokuapp.com" target ="_blank">Suggestion Box</a></h2>
+            <p>Suggestion Box is a community-based curation tool for like-minded users to develop meaningful suggestions for various entities.  Think corporations, advocacy and activist groups, municipalities, etc.</p>
+            <p>Users can also restrict their suggestions by location, in order to target a more discerning audience.</p>
+            <span><a href="https://github.com/GeoffCrittenden/suggestion-box" target="_blank">Source Code</a></span>
           </div>
           <div class="feature">
-            <h2><a href="https://github.com/GeoffCrittenden/qr_code" target="_blank">It's Food.  On Your Phone.</a></h2>
-            <p>Imagine if you could walk into your favorite lunch spot, such as Chipotle, and instantly order your food.  All you would need to do is scan it in and wait for your order to arrive.  No need to interact with another human, therefore no errors are introduced.  Connect your credit/debit card or bank account, and pay instantly.  Simple, right?  This app doesn't do all that yet, but it will someday.  Stay tuned.</p>
-            <span style="color: #F55;">link to app will be up soon</span>
+            <h2>Check Out <a href="https://shurly.herokuapp.com/" target="_blank">shURLy</a></h2>
+            <p>A small Sinatra-based URL shortener that I made and deployed over a weekend.  It helped me learn more about RESTful routing and a small bit about how URL shortening actually works.</p>
+            <p>I had to shut it down due to web hosting issues.  There were also security concerns as the usage grew.  I didn't want to be enabling bad actors on the 'net.</p>
+            <span><a href="https://github.com/GeoffCrittenden/shortly" target="_blank">Source Code</a></span>
           </div>
-
         </div>
 
         <div id="shurly">
           <p>
-            <form action="http://www.shur.ly/shurlyit" method="POST" target="_blank">
+            <form action="https://shurly.herokuapp.com/shurlyit" method="POST" target="_blank">
               <label>Need to shorten a URL? 
                 <input type="text" name="url" required placeholder="enter your url here" size="25">
               </label> 
               <input type="submit" value="Shurly It!">
             <span>(source <a href="https://github.com/GeoffCrittenden/shortly" target="_blank">here!</a>)</span>
+            <br><span style="color: red">Sorry, I had to disable this for now.  Working on web hosting issues.</span>
             </form>
           </p>
         </div>
