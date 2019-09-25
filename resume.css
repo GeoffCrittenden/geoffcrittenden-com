@@ -38,11 +38,11 @@ h3 {
   margin-top: 40px;
 }
 
-h1, h2, .contact, .skills {
+h1, h2, .contact, .skills, .interests {
   text-align: center;
 }
 
-.topper, .recent, .education, .experience {
+.topper, .skills, .education, .experience, .interests {
   border-bottom: 2px solid #BBB;
   margin: auto;
   padding-bottom: 25px;
@@ -79,7 +79,7 @@ div ul:last-child, div p:last-child {
   margin-bottom: 15px;
 }
 
-.education {
+.interests {
   border-bottom: none;
 }
 
